@@ -1,0 +1,546 @@
+body{
+    font-family: "Merriweather", serif;
+}
+.banner{
+    width: 1320px;
+    margin: 0 auto;   
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 16px;
+    background-image:  url('./images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: overlay;
+
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.banner-conteiner{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+}
+
+.banner-title{
+    color: rgba(255, 255, 255, 0.897);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-bottom: 20px;
+}
+
+.banner-des{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.offer-conteiner{
+    width: 802.9px;
+    margin: 0 auto;
+    height: 606px;
+    
+    margin-top:120px ;
+}
+
+.offer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.offer-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.offer-content h4{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.image-conteinar{
+    width: 802.9px;
+    height: 500px;
+}
+
+.image-conteinar img{
+    height: 100%;
+    width: 100%;
+}
+
+.midnight-party{
+    width: 1320px;
+    margin: 0 auto;
+    height: 500px;
+    
+    margin-top: 250px;
+    background-image: url('./images/Vectorrr.png');
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: overlay;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftsite-party{
+    width: 50%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.leftsite-party h2{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 24px;
+    padding-left: 126px;
+}
+
+.leftsite-party p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 48px;
+    padding-left: 126px;
+}
+.rightsite-party{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.rightsite-party img{
+    width: 349.16px;
+    height: 464.65px;
+    
+    
+    
+    
+}
+
+.jn-sp{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 126px;
+    margin-right: 300px;
+}
+
+/* .about-conteiner{
+    
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+
+.about-content{
+    width: 549px;
+    height: 272px;
+    margin: 100px 386px 110px 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+} */
+.place-about, .date ,.time{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+}   
+
+
+.about-conteiner{
+    
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+
+    border-radius: 16px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+
+}
+
+.about-content{
+    
+    width: 549px;
+    height: 272px;
+    margin: 100px 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-st{
+    color: red;
+}
+.btn-join-now{
+    margin-top: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+
+    background: rgb(255, 0, 0);
+}
+
+.group-offer{
+    
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.grourp-offers{
+    width: 463px;
+    height: 463px;
+    
+    display: flex;
+    justify-content:center;
+    
+    flex-direction: column;
+}
+
+.group-sub-head{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16PX;
+}
+
+.group-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22PX;
+}
+.group-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 20PX;
+}
+
+.group-photo{
+    width: 463px;
+    height: 463px;
+    
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.group-year{
+    width: 463px;
+    height: 463px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.year-content{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.year-img{
+    
+    margin-left: 100px;
+    background-position: bottom;
+    
+}
+
+.year-date{
+    margin-top: 140px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    /* padding-bottom: 16PX; */
+}
+
+.year-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+     padding-bottom: 43PX; 
+}
+
+.holidayconteinar{
+    
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+   
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+.holiday-text-conteinar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+    margin-top: 0;
+
+}
+.holiday-text-conteinar h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.holiday-text-conteinar h1{
+    margin-top: 16px;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday{
+    color: red;
+}
+
+.holiday-text-conteinar p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.solid-colour{
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+
+    background: rgb(255, 0, 0);
+    position: absolute;
+    top: 77%;
+}
+.giftbox{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.gril-conteinar{
+    width: 429px;
+    height: 433px;
+    position: relative;
+    left: 60%;
+    top: 11%;
+
+}
+
+.discount{
+    position: absolute;
+    bottom: 31%;
+    left: 70%;
+    z-index: 1;
+}
+
+.progolio{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    
+    margin-top: 100px;
+}
+
+.protfolio-text h6{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 16px;
+
+}
+.protfolio-text h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.protfolio-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.protfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.item{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px; 
+}
+.item img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.subcribe-conteinar{
+    width: 1320px;
+    height: 456px;
+    
+    margin: 0 auto;
+    border-radius: 16px;
+
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-text-conteinar{
+    width: 896px;
+    height: 336px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 80px 212px 200px 212px;
+}
+
+.subscribe-text-conteinar h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 22px;
+}
+.subscribe-text-conteinar p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.subscribe-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 648px;
+    height: 72px;
+    
+   
+}
+
+.subscribe-form button  {
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    
+
+}
+
+.subscribe-form input[type=email]{
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 25px;
+    padding: 8px;
+    border: none;
+    border-radius: 50px 0 0 50px ;
+}
